@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto+Slab:wght@300&display=swap');
+.center{
+    width: 900px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    
+    width: 900px;
+    height: 970px;
+    box-shadow: 0 0 10px rgba(1,9,9,0.2); /* Параметры тени */
+    background: white;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Fredoka', sans-serif;
+}
+.acme{
+    width: 380px;
+    height: 970px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.acme .beat{
+    color:gray;
+}
+.acme a{
+    padding-top: 18px;
+    width: 150px;
+    height: 35px;
+    margin-top: 50px;
+    outline: 1px solid gray;
+    text-decoration: none;
+    border-radius: 50px;
+    color: black;
+}
+.acme a:hover{
+    background-color: #EEEEEE;
+}
+.mainphoto{
+    position: absolute;
+    display: inline-flex;
+    width: 520px;
+    height: 970px;
+    background-image: url(/images/imgonline-com-ua-Resize-Me21q7eMPI2.jpg);
+    
+}
+.photos{
+    width: 900px;
+    box-shadow: 0 0 10px rgba(1,9,9,0.2); /* Параметры тени */
+    height: 3093px;
+    background: white;
+    
+
+}
+.ourWork{
+    width: 900px;
+    height: 577px;
+}
+.ourWork .top{
+    
+    width: 900px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+.ourWork .top .our{
+    width: 100px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-left: 1px dashed white;
+    border-right: 1px dashed white;
+}
+.ourWork .image{
+    height: 506px;
+    width: 900px;
+}
+.section{
+    width: 900px;
+    height: 630px;
+
+}
+.section .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 120px;
+    
+}
+.getInTouch{
+    width: 900px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
